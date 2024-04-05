@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Minsk/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Minsk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Minsk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Minsk/1.0.0": {
+      "type": "project",
+      "path": "../Minsk/Minsk.csproj",
+      "msbuildProject": "../Minsk/Minsk.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Minsk >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\snehp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\snehp\\Desktop\\C# basics\\c# in vscode\\MyCompiler\\mc\\mc.csproj",
+      "projectName": "mc",
+      "projectPath": "C:\\Users\\snehp\\Desktop\\C# basics\\c# in vscode\\MyCompiler\\mc\\mc.csproj",
+      "packagesPath": "C:\\Users\\snehp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\snehp\\Desktop\\C# basics\\c# in vscode\\MyCompiler\\mc\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\snehp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\snehp\\Desktop\\C# basics\\c# in vscode\\MyCompiler\\Minsk\\Minsk.csproj": {
+              "projectPath": "C:\\Users\\snehp\\Desktop\\C# basics\\c# in vscode\\MyCompiler\\Minsk\\Minsk.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
