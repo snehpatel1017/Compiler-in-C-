@@ -12,3 +12,6 @@ scoping, syntax highlighting, and string data types.
 * Scoping: Proper scoping rules are implemented to handle variable scope within blocks.
 * Syntax Highlighting: The compiler provides syntax highlighting for better code readability.
 * String Data Types: Strings are supported as a data type in the compiled code.
+
+
+![](https://github.com/snehpatel1017/Compiler-in-C-/blob/main/Demo.gif)
