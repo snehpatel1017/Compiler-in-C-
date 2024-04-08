@@ -1,10 +1,10 @@
-#My C# Compiler
+ # My C# Compiler
 
 This is a simple C# compiler project created for learning purposes and to showcase coding skills. 
 The compiler is implemented in C# and supports basic features such as parsing, loops, conditions, declarations,
 scoping, syntax highlighting, and string data types.
 
-#Features
+# Features
 
 * Parsing: The compiler parses input code written in C# syntax.
 * Loops and Conditions: It supports loops (e.g., for, while) and conditional statements (e.g., if, else).
